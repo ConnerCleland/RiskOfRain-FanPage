@@ -1,0 +1,85 @@
+#section-01 {
+    background-color: rgb(136, 125, 115); /* Fun orange background */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Wider spacing for a playful look */
+}
+
+#header {
+    font-family: 'Comic Sans MS', cursive; 
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px; 
+    color: #998b51; 
+    background-color: #debbbb; 
+    padding: 20px; 
+    border-radius: 50px; 
+    box-shadow: 0 0 20px rgba(255, 102, 102, 0.8); 
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+#playerEnvironment,
+#bluePlayer,
+#redPlayer,
+#bluePlayerAbilities,
+#bluePlayerItems {
+    border: 2px solid #ffffff; 
+    color: #f8f8f8;
+    padding: 15px 30px; 
+    font-size: 18px;
+    margin-left: 75px;
+    font-family: 'Impact', sans-serif; 
+    cursor: pointer;
+    border-radius: 15px; 
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+#playerEnvironment {
+    background-color: #33cc33; 
+}
+
+#bluePlayerAbilities {
+    background-color: #6666ff; 
+}
+
+#bluePlayerItems {
+    background-color: #ff9933; 
+}
+
+#redPlayer {
+    background-color: #ff3300;
+}
+
+#bluePlayer {
+    background-color: #0099cc;
+}
+
+#playerEnvironment:hover,
+#bluePlayer:hover,
+#redPlayer:hover,
+#bluePlayerItems:hover,
+#bluePlayerAbilities:hover {
+    background-color: #85777b; 
+    transform: scale(1.05); 
+}
+
+#mainStory {
+    text-align: center;
+    font-weight: inherit;
+    font-family:cursive;
+}
+#starterStory {
+    text-align: center;
+    margin-top: 80px;
+    font-weight: inherit;
+    font-family:cursive;
+}
